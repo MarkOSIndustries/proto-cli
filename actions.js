@@ -14,7 +14,7 @@ const VALID_ENCODINGS = ['binary', 'base64', 'hex', 'ascii', 'utf8', 'utf16le'];
 const isBinary = encoding => encoding === 'binary';
 
 function usage() {
-  console.log('Usage: ${INSTALL_NAME} <action> [...options]');
+  console.log(`Usage: ${INSTALL_NAME} <action> [...options]`);
   console.log(`Valid actions:\n  ${Object.keys(actions).join('\n  ')}`);
   return;
 }
